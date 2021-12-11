@@ -12,10 +12,10 @@ const App = () => {
   };
 
   return (
-    <div>
+    <React.Fragment>
       <AddUser onSubmit={userSubmitHandler} />
       <UsersList users={users} />
-    </div>
+    </React.Fragment>
   );
 };
 
